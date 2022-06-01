@@ -95,3 +95,18 @@ button:hover {
     color: white;
     cursor: pointer;
 }
+
+input {
+    margin-left: 10mm;
+    font-size: larger;
+    color: black;
+    background-color: rgba(71, 71, 71, 0.247);
+    border-color: rgba(0, 0, 0, 0);
+    cursor: text;
+    transition-duration: 0.4s;
+}
+
+input:hover {
+    background-color: yellow;
+    border-color: rgba(71, 71, 71, 0.76);
+}
