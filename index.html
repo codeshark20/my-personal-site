@@ -7,6 +7,19 @@
 
 <body>
 
+<script>
+function secter() {
+
+    var pass = document.getElementById('password').value
+
+    if (pass === 'Felicityrules') {
+        window.open('https://www.w3schools.com/jsref/met_win_open.asp');
+    } else {
+        console.log('false' + pass)
+    }
+}
+</script>
+
 <h1> My First Webpage </h1>
 
 <p> Welcome to my first webpage! This webpage was created in 'intermediate' HTML, CSS and basic JavaScript code. You can view the source code by pressing <kbd>Ctrl + U</kbd>. If you're using a mobile device, append <kbd>view-source:</kbd> before the URL and press search.</p>
@@ -40,8 +53,11 @@
 <p class="note">*VS Code is only available on PC.</p>
 
 <p class="note">*Appropriate interpreters are needed to run different languages.</p>
+
+<input class="" id="password" type="text">
+<button type="button" onclick="secter()">Null</button>
   
-<--In the case that you are FelicityC, welcome to my site!-->
+<!--In the case that you are [REDACTED], welcome to my site!-->
 
 <style src= "HTML Styles.css"></style>
 <link rel= "stylesheet" href= "HTML Styles.css"></link>
