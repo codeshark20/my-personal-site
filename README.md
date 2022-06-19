@@ -1,1 +1,1 @@
-Please do not edit this code. This is a personal project and must be treated as such.
+This is a personal project with nothing much to be expected. This site is only hosted for fun and is where I put some of my ideas.
