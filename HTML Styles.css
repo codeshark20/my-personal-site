@@ -76,37 +76,21 @@ img.background {
 button {
     background-color: rgba(71, 71, 71, 0.247);
     border: none;
-    width: 60mm;
-    padding: 15px 32px;
+    width: 85mm;
+    height: 25mm;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     color: black;
     transition-duration: 0.4s;
-    padding: 20px 20px;
-    display: inline-block;
-    margin-left: 10mm;
-    margin-right: 10mm;
+    margin-left: 25mm;
+    margin-right: 25mm;
 }
 
 button:hover {
     background-color: rgb(122, 122, 122);
     color: white;
     cursor: pointer;
-}
-
-input {
-    margin-left: 10mm;
-    font-size: larger;
-    color: black;
-    background-color: rgba(71, 71, 71, 0.247);
-    border-color: rgba(0, 0, 0, 0);
-    cursor: text;
-    transition-duration: 0.4s;
-}
-
-input:hover {
-    background-color: yellow;
-    border-color: rgba(71, 71, 71, 0.76);
 }
