@@ -27,11 +27,6 @@ p {
     margin: 10mm;
 }
 
-p.credits {
-    text-align: left;
-    font-size: large;
-}
-
 p.note {
     font-size: smaller;
     margin-top: 5px;
@@ -40,37 +35,6 @@ p.note {
 
 p.buttonp {
     text-align: center;
-}
-
-img {
-    height: 30mm;
-    cursor: pointer;
-    margin-bottom: 10mm;
-}
-
-.parallax1 {
-  background-image: url("HTML Code.png");
-  min-height: 350px;
-  background-attachment: fixed;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax2 {
-    background-image: url("VS Code Interface 2.png");
-    min-height: 350px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-img.background {
-    min-height: 500px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 button {
